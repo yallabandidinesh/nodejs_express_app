@@ -20,12 +20,15 @@ This is a Node.js and Express application that allows users to sign up and sign 
 
 ## File Structure
 
-├── views
-│   ├── signin.ejs
-│   ├── signup.ejs
-│   ├── home.ejs
-│   └── word.ejs
-├── key.json
-├── app.js
-├── package.json
-├── package-lock.json
+*├── views
+    ├── signin.ejs
+    ├── signup.ejs
+    ├── home.ejs
+    └── word.ejs
+*├── key.json
+*├── app.js
+*├── package.json
+*├── package-lock.json
+Here views is the another folder that is present in the main folder
+In this views there are 4 files 
+key.json,app.js,package.json,package-lock.json are the another files present in the main folder
