@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("https://image.slidesdocs.com/responsive-images/background/wallpaper-business-white-simple-abstract-creative-powerpoint-background_21cd9b9c4d__960_540.jpg");
+            background-repeat:no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+        }
+
+        .container {
+            background-color:purple;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+           color:white;
+        }
+
+        .search {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid green;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>ENTER ONE WORD:</h3>
+        <form action="/worddata" method="post">
+            <input type="text" placeholder="enter a word" name="word" class="search">
+        </form>
+    </div>
+</body>
+</html>

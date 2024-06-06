@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("https://st5.depositphotos.com/73977922/68633/i/450/depositphotos_686334088-stock-photo-white-background-simple-modern-certificate.jpg");
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 20px 30px;
+            border-radius: 70px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .data h2 {
+            color: blue;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .data p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .data p span {
+            font-weight: bold;
+            color:red;
+        }
+
+        .data p:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <main id="main">
+        <div class="data">
+            <h2>Here is the information of the word: <%= word %></h2>
+            <p><span>Word:</span> <%= word %></p>
+            <p><span>Synonyms:</span> <%= synonyms %></p>
+            <p><span>Antonyms:</span> <%= antonyms %></p>
+        </div>
+    </main>
+</body>
+</html>
